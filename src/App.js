@@ -30,18 +30,22 @@ function App() {
           <h2 className="hero-greeting">Hi I'm</h2>
           <h1 className="hero-name">Mohd Ramzan</h1>
           <div className="hero-title">
+            <span style={{ color: '#ffffff' }}>I'm a </span>
             <TypeAnimation
               sequence={[
-                "I'm a Software Engineer",
+                "Developer",
                 2000,
-                "I'm a Developer",
+                "Student",
                 2000,
-                "I'm a Student",
+                "Software Engineer",
+                2000,
+                "Music Producer",
                 2000,
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
+              style={{ fontWeight: 700, color: '#ffffff' }}
             />
           </div>
         </div>
@@ -65,10 +69,10 @@ function App() {
             </div>
             <div className="about-text">
               <p>
-                I'm Mohd Ramzan and I'm a Computer Science & Mathematics student at the University of Washington Seattle, Paul G. Allen School of Computer Science. I'm passionate about building innovative full-stack solutions and exploring AI/ML technologies.
+                I'm Mohd Ramzan and I'm a Computer Science major undergrad at the Allen School at the University of Washington. I enjoy problem solving and have a passion for building backend services, learning cool algorithms, and writing solid code. Currently, I'm studying CS with a Math minor.
               </p>
               <p>
-                I have experience as a Software Development Intern at Xiaomi India and The Verse, where I built scalable systems serving thousands of users. I'm also an Undergraduate Research Intern and Teaching Assistant, helping over 600 students learn computer science.
+                For fun, I like to produce music, play soccer, code and watch movies. I've recently gotten into signal processing and ML in the audio field related to music production! I also just like going new places and exploring.
               </p>
             </div>
           </div>
